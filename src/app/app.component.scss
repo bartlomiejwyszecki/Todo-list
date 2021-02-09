@@ -1,4 +1,6 @@
-  .ml-5 {
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap');
+ 
+ .ml-5 {
     margin-left: 5px;
   }
   
@@ -22,7 +24,23 @@
   }
 
 .container {
+    font-family: 'Chivo', sans-serif;
+    button {
+      font-family: 'Chivo', sans-serif;
+    }
     .btn-floating {
         margin-left: 10px;
+    }
+    nav {
+      h3 {
+      font-weight: 900;
+      padding-top: 5px;
+      }
+    }
+    .nav-wrapper, .page-footer {
+      background: #00796b;
+      span {
+        font-weight: 700;
+      }
     }
 }
